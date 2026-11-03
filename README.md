@@ -4,13 +4,15 @@
 [![Status](https://img.shields.io/badge/Status-In%20Development-orange?style=flat-square)](#project-status)
 [![License](https://img.shields.io/badge/License-GPL--3.0-blue?style=flat-square)](LICENSE)
 
-D2W is the wheeled version of [Kinatric D2](https://github.com/Kinatric/d2), built on the same robotics platform. Most of the project structure and software workflow are shared with D2, with hardware resources and robot configurations adapted for the wheeled version. This is the main repository for the D2W open-source robotics project. It serves as the starting point for project information, hardware resources, technical documentation, and links to companion software repositories.
+[![Watch the Kinatric D2W introduction video on YouTube](https://img.youtube.com/vi/CxxLvUWkfug/hqdefault.jpg)](https://youtu.be/CxxLvUWkfug)
+
+D2W is an open-source wheeled robot built on the Kinatric robotics platform. It combines the shared platform software workflow with hardware resources and robot configurations adapted for wheeled locomotion. This is the main repository for the D2W open-source robotics project. It serves as the starting point for project information, hardware resources, technical documentation, and links to companion software repositories.
 
 This repository connects D2W hardware design, motion data, policy training, simulation validation, and deployment resources. Hardware specifications, software dependencies, and compatibility will be documented with the corresponding releases.
 
 ## Meet Kinatric at CES 2027
 
-Kinatric will be exhibiting at **CES 2027, January 6-9, 2027**, in Las Vegas, Nevada. Visit our team to learn more about D2, D2W, and our robotics platform.
+Kinatric will be exhibiting at **CES 2027, January 6-9, 2027**, in Las Vegas, Nevada. Visit our team to learn more about D2W and our robotics platform.
 
 **Find us at LVCC, South Hall 3 - Booth 40043.**
 
@@ -27,11 +29,11 @@ All times are local to Las Vegas (Pacific Standard Time, UTC-8). See the [offici
 
 ## Product Photos
 
-D2W product photos will be added as they become available. For an introduction to the original D2 platform, see the [D2 repository](https://github.com/Kinatric/d2).
+D2W product photos will be added as they become available.
 
 ## Project Status
 
-D2W is under development. This repository currently contains project documentation and flashing tool archives in [`tools/`](tools/). D2W CAD files and a bill of materials have not yet been published. Shared D2 platform training code is maintained in [Kinatric/d2_rl_lab](https://github.com/Kinatric/d2_rl_lab), and deployment code is maintained in [Kinatric/rl_sim2real](https://github.com/Kinatric/rl_sim2real). Electronics and assembly instructions have not yet been published.
+D2W is under development. This repository currently contains project documentation and flashing tool archives in [`tools/`](tools/). D2W CAD files and a bill of materials have not yet been published. Shared platform training code is maintained in [Kinatric/d2_rl_lab](https://github.com/Kinatric/d2_rl_lab), and deployment code is maintained in [Kinatric/rl_sim2real](https://github.com/Kinatric/rl_sim2real). Electronics and assembly instructions have not yet been published.
 
 D2W-specific robot models, wheel control settings, and hardware compatibility will be documented as they become available. The shared software links below are starting points; check each repository for documented D2W support and configurations.
 
@@ -67,7 +69,7 @@ Hardware resources will be organized into the following categories. File locatio
 
 ## Software Workflow
 
-The following workflow outlines the software organization. For shared D2 platform training code, see [Kinatric/d2_rl_lab](https://github.com/Kinatric/d2_rl_lab). For deployment code, see [Kinatric/rl_sim2real](https://github.com/Kinatric/rl_sim2real). Follow each repository's README for supported workflows, setup, usage, and validation requirements. Other software entry points will be added as they become available.
+The following workflow outlines the software organization. For shared platform training code, see [Kinatric/d2_rl_lab](https://github.com/Kinatric/d2_rl_lab). For deployment code, see [Kinatric/rl_sim2real](https://github.com/Kinatric/rl_sim2real). Follow each repository's README for supported workflows, setup, usage, and validation requirements. Other software entry points will be added as they become available.
 
 ```text
 D2W hardware models and parameters
