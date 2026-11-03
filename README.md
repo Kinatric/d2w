@@ -33,7 +33,7 @@ D2W product photos will be added as they become available.
 
 ## Project Status
 
-D2W is under development. This repository currently contains project documentation and flashing tool archives in [`tools/`](tools/). D2W CAD files and a bill of materials have not yet been published. Shared platform training code is maintained in [Kinatric/d2_rl_lab](https://github.com/Kinatric/d2_rl_lab), and deployment code is maintained in [Kinatric/rl_sim2real](https://github.com/Kinatric/rl_sim2real). Electronics and assembly instructions have not yet been published.
+D2W is under development. This repository currently contains project documentation and flashing tool archives in [`tools/`](tools/). D2W CAD files and a bill of materials have not yet been published. Shared platform training code is maintained in [Kinatric/d2w_rl_lab](https://github.com/Kinatric/d2w_rl_lab), and deployment code is maintained in [Kinatric/rl_sim2real](https://github.com/Kinatric/rl_sim2real). Electronics and assembly instructions have not yet been published.
 
 D2W-specific robot models, wheel control settings, and hardware compatibility will be documented as they become available. The shared software links below are starting points; check each repository for documented D2W support and configurations.
 
@@ -44,7 +44,7 @@ The resource categories and workflow below describe the planned organization. Th
 | Goal | Starting point | Status |
 |---|---|---|
 | Explore hardware and manufacturing resources | [Hardware resources](#hardware-resources) | Not yet published |
-| Find shared platform training code | [Kinatric/d2_rl_lab](https://github.com/Kinatric/d2_rl_lab) | Training repository |
+| Find shared platform training code | [Kinatric/d2w_rl_lab](https://github.com/Kinatric/d2w_rl_lab) | Training repository |
 | Find shared platform deployment code | [Kinatric/rl_sim2real](https://github.com/Kinatric/rl_sim2real) | Deployment repository |
 | Find API code | [Kinatric/api](https://github.com/Kinatric/api) | API repository |
 | Find Android code | [Kinatric/android](https://github.com/Kinatric/android) | Android repository |
@@ -69,7 +69,7 @@ Hardware resources will be organized into the following categories. File locatio
 
 ## Software Workflow
 
-The following workflow outlines the software organization. For shared platform training code, see [Kinatric/d2_rl_lab](https://github.com/Kinatric/d2_rl_lab). For deployment code, see [Kinatric/rl_sim2real](https://github.com/Kinatric/rl_sim2real). Follow each repository's README for supported workflows, setup, usage, and validation requirements. Other software entry points will be added as they become available.
+The following workflow outlines the software organization. For shared platform training code, see [Kinatric/d2w_rl_lab](https://github.com/Kinatric/d2w_rl_lab). For deployment code, see [Kinatric/rl_sim2real](https://github.com/Kinatric/rl_sim2real). Follow each repository's README for supported workflows, setup, usage, and validation requirements. Other software entry points will be added as they become available.
 
 ```text
 D2W hardware models and parameters
@@ -90,7 +90,7 @@ Real-robot commissioning and operation
 | Stage | Scope | Shared platform repository |
 |---|---|---|
 | Motion data | Collect or generate motion data, record provenance, and verify quality | To be announced |
-| Policy training | Shared platform training code; see the training repository for supported workflows | [Kinatric/d2_rl_lab](https://github.com/Kinatric/d2_rl_lab) |
+| Policy training | Shared platform training code; see the training repository for supported workflows | [Kinatric/d2w_rl_lab](https://github.com/Kinatric/d2w_rl_lab) |
 | Simulation validation | Verify robot models, control interfaces, and policy behavior | To be announced |
 | Deployment | Shared platform deployment code; see the deployment repository for supported workflows and runtime requirements | [Kinatric/rl_sim2real](https://github.com/Kinatric/rl_sim2real) |
 
@@ -113,7 +113,7 @@ git clone https://github.com/Kinatric/d2w.git
 cd d2w
 ```
 
-This repository contains documentation and hardware resources. For training code and installation instructions, see [Kinatric/d2_rl_lab](https://github.com/Kinatric/d2_rl_lab). For deployment code and runtime requirements, see [Kinatric/rl_sim2real](https://github.com/Kinatric/rl_sim2real).
+This repository contains documentation and hardware resources. For training code and installation instructions, see [Kinatric/d2w_rl_lab](https://github.com/Kinatric/d2w_rl_lab). For deployment code and runtime requirements, see [Kinatric/rl_sim2real](https://github.com/Kinatric/rl_sim2real).
 
 ## Repository Boundaries
 
