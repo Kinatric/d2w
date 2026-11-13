@@ -2,7 +2,7 @@
 
 [![Project](https://img.shields.io/badge/Project-D2W-2E8B57?style=flat-square)](https://github.com/Kinatric/d2w)
 [![Status](https://img.shields.io/badge/Status-In%20Development-orange?style=flat-square)](#project-status)
-[![License](https://img.shields.io/badge/License-GPL--3.0-blue?style=flat-square)](LICENSE)
+[![Hardware license](https://img.shields.io/badge/Hardware-CERN--OHL--W--2.0-blue)](LICENSING.md) [![Software license](https://img.shields.io/badge/Software-GPL--3.0--or--later-blue)](LICENSING.md)
 
 [![Watch the Kinatric D2W introduction video on YouTube](https://img.youtube.com/vi/CxxLvUWkfug/hqdefault.jpg)](https://youtu.be/CxxLvUWkfug)
 
@@ -33,7 +33,7 @@ D2W product photos will be added as they become available.
 
 ## Project Status
 
-D2W is under development. This repository currently contains project documentation and flashing tool archives in [`tools/`](tools/). D2W CAD files and a bill of materials have not yet been published. Shared platform training code is maintained in [Kinatric/d2w_rl_lab](https://github.com/Kinatric/d2w_rl_lab), and deployment code is maintained in [Kinatric/rl_sim2real](https://github.com/Kinatric/rl_sim2real). Electronics and assembly instructions have not yet been published.
+D2W is under development. This repository currently contains project documentation, a bill of materials in [`bom/`](bom/), and flashing tool archives in [`tools/`](tools/). D2W CAD files have not yet been published. Shared platform training code is maintained in [Kinatric/d2w_rl_lab](https://github.com/Kinatric/d2w_rl_lab), and deployment code is maintained in [Kinatric/rl_sim2real](https://github.com/Kinatric/rl_sim2real). Electronics and assembly instructions have not yet been published.
 
 D2W-specific robot models, wheel control settings, and hardware compatibility will be documented as they become available. The shared software links below are starting points; check each repository for documented D2W support and configurations.
 
@@ -142,6 +142,4 @@ All repository content must be written in English, including documentation, code
 
 ## License
 
-This repository is distributed under the [GNU General Public License v3.0](LICENSE).
-
-Referenced projects and third-party resources retain their own licenses and notices. See [LICENSE](LICENSE) for the full terms.
+Kinatric-owned software and firmware contributions are licensed under **GPL-3.0-or-later**. Kinatric-owned robot hardware designs and associated manufacturing documentation are licensed under **CERN-OHL-W-2.0**, subject to the file coverage in [LICENSING.md](LICENSING.md). Third-party material retains its original licenses and attribution; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Both full license texts are included in [LICENSES/](LICENSES/). Kinatric-owned trained policy weights are also GPL-3.0-or-later; see the coverage table and provenance requirements.
