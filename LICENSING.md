@@ -10,7 +10,7 @@ The full, unmodified texts are in [LICENSES/GPL-3.0-or-later.txt](LICENSES/GPL-3
 | --- | --- |
 | `bom/`, hardware manufacturing/assembly documentation and future explicitly marked CAD | CERN-OHL-W-2.0 for Kinatric-owned designs and related documentation. |
 | Kinatric-owned software, firmware source and software documentation, when added | GPL-3.0-or-later; include file or directory notices when adding them. |
-| `tools/` | Vendor archives; their original terms apply, not the Kinatric grants. |
+| `tools/` | Links to vendor-hosted downloads; vendor software retains its own terms and is not covered by the Kinatric grants. |
 
 Existing third-party file headers, component LICENSE files and attribution notices remain authoritative for the upstream portions they identify. Kinatric-owned modifications to software are GPL-3.0-or-later, including when combined with compatible permissively licensed upstream code. Preserve those upstream notices as well as the GPL notice when distributing the combined work. An existing upstream SPDX header is not permission to distribute later Kinatric-owned modifications solely under that upstream license. Unmodified third-party components remain under their original terms. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
@@ -27,3 +27,7 @@ Hardware Source Location: https://github.com/Kinatric/d2w (use the specific rele
 New wholly Kinatric-owned source files should carry `SPDX-License-Identifier: GPL-3.0-or-later` and the actual copyright holder/year. New wholly Kinatric-owned hardware files should carry `SPDX-License-Identifier: CERN-OHL-W-2.0`, or a matching `<filename>.license` sidecar for binary formats. Preserve all original notices in mixed or imported files and identify the license of Kinatric modifications separately; do not replace another author's SPDX identifier or copyright holder. Include these license texts and applicable notices in source and binary packages.
 
 Kinatric-owned trained policies/checkpoints are explicitly GPL-3.0-or-later under this policy. Include an artifact-level license notice, ownership/provenance record and the required corresponding source in each release. Establish the preferred form for modifying the policy, including the editable checkpoint and applicable training/export configuration and scripts; an ONNX export alone must not be assumed sufficient. Licensing training code alone does not automatically license its outputs. Firmware from component vendors retains its vendor terms.
+
+## Published hardware scope
+
+Kinatric publishes its mechanical design exports and robot models under CERN-OHL-W-2.0 where identified in this repository. PCB designs and their source files are proprietary, are not published here, and are excluded from this grant. Native CAD part and assembly files are retained privately; the published mechanical files are STEP exports and other published design files identified by the repository coverage. This scope statement does not amend the license or waive its Complete Source obligations. Software and firmware remain covered separately as described here.
