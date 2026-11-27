@@ -8,9 +8,10 @@ The full, unmodified texts are in [LICENSES/GPL-3.0-or-later.txt](LICENSES/GPL-3
 
 | Material | Applicable terms |
 | --- | --- |
-| `bom/`, hardware manufacturing/assembly documentation and future explicitly marked CAD | CERN-OHL-W-2.0 for Kinatric-owned designs and related documentation. |
+| `cad/`, `3dprint/`, `bom/`, hardware manufacturing/assembly documentation | CERN-OHL-W-2.0 for Kinatric-owned designs and related documentation. |
 | Kinatric-owned software, firmware source and software documentation, when added | GPL-3.0-or-later; include file or directory notices when adding them. |
 | `tools/` | Links to vendor-hosted downloads; vendor software retains its own terms and is not covered by the Kinatric grants. |
+| `assets/` | Existing image/brand rights remain unchanged; no new license or trademark grant is made by this transition. |
 
 Existing third-party file headers, component LICENSE files and attribution notices remain authoritative for the upstream portions they identify. Kinatric-owned modifications to software are GPL-3.0-or-later, including when combined with compatible permissively licensed upstream code. Preserve those upstream notices as well as the GPL notice when distributing the combined work. An existing upstream SPDX header is not permission to distribute later Kinatric-owned modifications solely under that upstream license. Unmodified third-party components remain under their original terms. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 

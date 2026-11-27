@@ -1,4 +1,5 @@
-
+__pycache__/
+*.py[cod]
 
 # Obtain vendor flashing tools from the documented download links.
 /tools/DriverAssitant*.zip
